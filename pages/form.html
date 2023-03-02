@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran SIB</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran SIB</h1>
+
+<label for="nama">Nama Lengkap</label> <br>
+<input id="nama" type="text">
+<br>
+<label for="isian email">Email:</label> <br>
+<input id="isian email" type="Email"> 
+<br>
+<label for="isian nomer">No.HP</label> <br>
+<input id="isian nomer" type="number"> 
+<br> 
+<label for="isian-tanggal-lahir">Tanggal Lahir</label> <br>
+<input id="isian-tanggal-lahir" nama="Tanggal Lahir" type="date"> <br>
+
+<form>
+    Jenis Kelamin: <br>
+    
+    <div>
+        <input id="lk" type="radio" nama="jenis_kelamin">
+        <label for="lk">Laki-laki</label>
+    </div>
+
+    <div>
+        <input id="pr" type="radio" nama="jenis_kelamin">
+        <label for="pr">Perempuan</label>
+    </div>
+</form>
+<label for="isian-jurusan">Jurusan:</label><br>
+<select id="Jurusan" name="Jurusan">
+    <option value="teknik informatika">Teknik Informatika</option>
+    <option value="teknik sipil">Teknik Sipil</option>
+    <option value="teknik elektro">Teknik Elektro</option>
+    <option value="teknik mesin">Teknik Mesin</option>
+    <option value="ilmu komputer">Ilmu Komputer</option>
+    <option value="teknik komputer">Teknik Komputer</option>
+    <option value="software engineering">Software Engineering</option>
+    <option value="sistem informasi">Sistem Informasi</option>
+    <option value="teknologi informasi">Teknologi Informasi</option> 
+    <br>
+</select>
+
+<br> 
+<label for="alamat">Alamat</label> <br>
+<textarea nama="alamat" rows="10" cols="30">
+</textarea>
+<br>
+
+<form action="action_page.php">
+        <label for="foto">Foto</label> <br>
+<button type="button" onclick="alert(pilih file)">Choose File</button> <br>
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
