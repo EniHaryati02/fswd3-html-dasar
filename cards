@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+<body>
+<strong> <h2>Gunung Tertinggi di Dunia</h2> </h2></strong> 
+
+</body>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: 'Times New Roman', Times, serif;
+ background-color: rgb(106, 141, 207);
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px rgb(69, 140, 221);
+     border-style: 5px; 
+     margin: 2%;
+     background: darkgray;
+    }
+
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="Gunung-Mauna-Kea.jpg">
+</div>
+<div class="title">
+ <h1>
+Gunung Mauna Kea</h1>
+</div>
+<div class="des">
+ <p>Mauna Kea merupakan gunung tertinggi di dunia jika diukur serta dihitung secara keseluruhan mulai dari kaki hingga ujung puncaknya</p>
+</div>
+</div>
+
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="Gunung-Makalu.png">
+</div>
+<div class="title">
+ <h1>
+Gunung Makalu</h1>
+</div>
+<div class="des">
+ <p>Gunung Makalu adalah sebuah Gunung yang terletak di negara Nepal yang memiliki ketinggian 8462 meter, atau setara dengan 27762 kaki.</p>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="Gunung-Lhotse.jpg">
+</div>
+<div class="title">
+ <h1>
+Gunung Lhotse</h1>
+</div>
+<div class="des">
+ <p>Lhotse merupakan sebuah gunung di Nepal dan RRC. Gunung ini terletak di bagian utara yang memiliki ketinggian 8.516 m </p>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="Gunung-Kangchenjunga.jpg">
+</div>
+<div class="title">
+ <h1>
+Gunung Kangchenjunga</h1>
+</div>
+<div class="des">
+ <p>Gunung Kangchenjunga disebut Kanchenjunga atau Kinchinjunga merupakan salah satu gunung tertinggi di atas 8.000 m di atas permukaan laut.</p>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="Gunung-K2.jpg">
+</div>
+<div class="title">
+ <h1>
+Gunung K2</h1>
+</div>
+<div class="des">
+ <p>Gunung K2 atau nama lainnya Gunung Savage memiliki ketinggian 8.611 meter (28.251 kaki) di atas permukaan laut dan berada diantara Pegunungan</p>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="Gunung-Everest.jpg">
+</div>
+<div class="title">
+ <h1>
+Gunung Everest</h1>
+</div>
+<div class="des">
+ <p>Gunung Everest merupakan bagian dari Pegunungan Himalaya. Puncaknya berada di ketinggian 8.848 meter di atas permukaan laut.</p>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="Gunung-Dhaulagiri.jpg">
+</div>
+<div class="title">
+ <h1>
+Gunung Dhaulagiri</h1>
+</div>
+<div class="des">
+ <p>Dhaulagiri adalah gunung tertinggi ketujuh di dunia dengan ketinggian 8.167 meter (26.795 ft) di atas permukaan laut (dpl)</p>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="Gunung-Cho-Oyu.jpg">
+</div>
+<div class="title">
+ <h1>
+Gunung Cho Oyu</h1>
+</div>
+<div class="des">
+ <p>Gunung Cho Oyu adalah sebuah Gunung yang terletak di negara Nepal yang memiliki ketinggian 8201 meter, atau setara dengan 26906 kaki.</p>
+</div>
+</div>
+<!--cards -->
+
+</div>
+</div>
+</div>
+</body>
+</html>
